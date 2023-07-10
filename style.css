@@ -1,0 +1,29 @@
+*{
+    padding: 0.5rem; 
+}
+body{
+    background-color: aliceblue;
+    
+}
+.questions{
+    justify-content:center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.que1{
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.ans{
+    background-color: white;
+    border-top: 1px solid #000;
+    display:none;
+}
+
+.toggleAns{
+    display: block;
+}
