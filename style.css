@@ -3,11 +3,17 @@
 }
 body{
     background-color: aliceblue;
-    
+    font-family:monospace;
 }
+
 .questions{
     justify-content:center;
 }
+
+.btn {
+    width: 30px;
+}
+
 h1{
     display: flex;
     justify-content: center;
@@ -15,15 +21,22 @@ h1{
 .que1{
     background-color: white;
     display: flex;
-    justify-content:space-between;
-    
+    flex-direction: column;
+    border-radius: 5px;
 }
 .ans{
     background-color: white;
-    border-top: 1px solid #000;
     display:none;
+    border-radius: 5px;
 }
 
 .toggleAns{
     display: block;
+}
+
+.question-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
 }

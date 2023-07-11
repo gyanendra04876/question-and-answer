@@ -9,56 +9,67 @@
 </head>
 <body>
     <h1>General Questions</h1>
-    <article class="questions">
+    <div class="questions">
         <!-- question 1  -->
         <div class="que1">
-            <p><b>Do you accept all major credit cards?</b></p>
-            <span>
-                <button id="btnPlus1" onclick= "daya(this.id,'btnMinus1','ans1')">+</button> 
-                <button id="btnMinus1" hidden onclick = "pandit(this.id,'btnPlus1','ans1')">-</button>
-            </span>
-        </div>
-        <!-- answer 1 -->
-        <div class="ans" id="ans1">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-    </article>
+            <div class="question-container">
+                <p><b>Do you accept all major credit cards?</b></p>
+                <div>
+                    <button class = "btn" id="btnPlus1" style="background-color: lightgreen; border:none; border-radius: 5px;" onclick= "daya(this.id,'btnMinus1','ans1')">+</button> 
+                    <button class = "btn" id="btnMinus1" style="background-color: red; border:none; border-radius: 5px;" hidden onclick = "pandit(this.id,'btnPlus1','ans1')">-</button>
+                </div>
+            </div>
 
-    <article class="questions">
-        <!-- question 1  -->
-        <div class="que1">
-            <p><b>Do you support local farmers?</b></p>
-            <span>
-                <button id="btnPlus2" onclick= "daya(this.id,'btnMinus2','ans2')">+</button> 
-                <button id="btnMinus2" hidden onclick = "pandit(this.id,'btnPlus2','ans2')">-</button>
-            </span>
+            <div class="ans" id="ans1">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
         </div>
         <!-- answer 1 -->
-        <div class="ans" id="ans2">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-    </article>
+        
+    </div>
 
-    <article class="questions">
+    <div class="questions">
         <!-- question 1  -->
         <div class="que1">
-            <p><b>Do you use organic ingredients?</b></p>
-            <span>
-                <button id="btnPlus3" onclick= "daya(this.id,'btnMinus3','ans3')">+</button> 
-                <button id="btnMinus3" hidden onclick = "pandit(this.id,'btnPlus3','ans3')">-</button>
-            </span>
+            <div class="question-container">
+                <p><b>Do you support local farmers?</b></p>
+            <div>
+                <button class = "btn" id="btnPlus2"  style="background-color: lightgreen; border:none; border-radius: 5px;" onclick= "daya(this.id,'btnMinus2','ans2')">+</button> 
+                <button class = "btn" id="btnMinus2" style="background-color: red; border:none; border-radius: 5px;" hidden onclick = "pandit(this.id,'btnPlus2','ans2')">-</button>
+            </div>
+            </div>
+
+            <div class="ans" id="ans2">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
         </div>
         <!-- answer 1 -->
-        <div class="ans" id="ans3">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+        
+    </div>
+
+    <div class="questions">
+        <!-- question 1  -->
+        <div class="que1">
+            <div class="question-container">
+                <p><b>Do you use organic ingredients?</b></p>
+            <div>
+                <button class = "btn" id="btnPlus3" style="background-color: lightgreen; border:none; border-radius: 5px;" onclick= "daya(this.id,'btnMinus3','ans3')">+</button> 
+                <button class = "btn" id="btnMinus3" style="background-color: red; border:none; border-radius: 5px;" hidden onclick = "pandit(this.id,'btnPlus3','ans3')">-</button>
+            </div>
+            </div>
+
+            <div class="ans" id="ans3">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
         </div>
-    </article>
+        <!-- answer 1 -->
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
