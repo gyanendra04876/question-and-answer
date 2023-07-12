@@ -49,9 +49,9 @@ function daya(plusButtonId,minusButtonId , answer){
     document.getElementById(minusButtonId).hidden = false;
     document.getElementById(answer).style.display = "block"
     
-    // setTimeout(()=>{
-    //     pandit(minusButtonId,plusButtonId,answer);
-    // },3000);
+    setTimeout(()=>{
+        pandit(minusButtonId,plusButtonId,answer);
+    },4000);
 };
 function pandit(minusButtonId , plusButtonId , answer){
     document.getElementById(plusButtonId).hidden = false;
